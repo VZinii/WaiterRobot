@@ -8,3 +8,6 @@ O projeto foi organizado utilizando o conceito MVC(Model, View, Controller). Na 
 
 ## Principais Bibliotecas Utilizadas
 Para a funcionalidade de fala do robô, foram utilizadas as bibliotecas "Speech Recognition" da Google e a biblioteca "Eleven Labs". Para conectar ao robô e enviar os comandos de movimento, foi utilizada a biblioteca "Serial".
+
+## Principais dificuldades
+As maiores dificuldades encontradas durante a criação do projeto se tratam de problemas com o robô utilizado. A primeira delas se trata da conexão bluetooth com o robô, uma vez que a conexão necessitava de configurações específicas no computador para aparecer como conexão disponível. O segundo problema se trata de um problema com as rodas do robô; ao comandar ao robô que ele ande para frente, ele faz uma tragetória levemente inclinada para a esquerda, sendo necessárias ajustes durante seu movimento.
