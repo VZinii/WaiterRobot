@@ -2,24 +2,6 @@ import pyttsx3
 import time
 import serial
 import msvcrt
-
-from gtts import gTTS
-import os
-
-# def act(str):
-    # str = "Pessoa falante aqui"
-    # engine = pyttsx3.init()
-    # engine.say(str)
-    # time.sleep(3)
-    # engine.runAndWait()
-    # time.sleep(3)
-    # audio = gTTS(text=str, lang="pt", slow=False)
-    # audio.save("example.mp3")
-    # os.system("start example.mp3")
-
-    # play(audio)
-    # time.sleep(3)
-
 from elevenlabs import clone, generate, play, set_api_key
 from elevenlabs.api import History
 
@@ -50,24 +32,12 @@ def walkFront():
 
     send_command('F')
     time.sleep(3.5)
-    # send_command('B')
-    # time.sleep(3)
     send_command('L')
     time.sleep(0.15)
     send_command('F')
     time.sleep(4)
     send_command('S')
     time.sleep(1)
-
-
-# send_command('L')
-# send_command('L')
-# send_command('L')
-# send_command('L')
-# send_command('L')
-# send_command('L')
-
-
     ser.close()
     time.sleep(3)
 
@@ -90,12 +60,6 @@ def turnaround():
     send_command('S')
 
 
-# send_command('L')
-# send_command('L')
-# send_command('L')
-# send_command('L')
-# send_command('L')
-# send_command('L')
 
 
     ser.close()
